@@ -89,8 +89,7 @@
     "font-awesome": "^4.6.3",
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.1.0",
-    "path": "^0.12.7",
-    "swig": "^1.4.2"
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "@easy-webpack/config-aurelia": "^2.0.1",
