@@ -19,7 +19,7 @@ var groupStateZip = R.composeP(userSettings.makecityArray, userSettings.groupByZ
  //For testing
 router.get('/api/helloWorld', function (req, res) 
 { 
-    res.send('Hell World!'); 
+    res.send('Hell World!!'); 
 });
 
 router.get('/api/states', response.renderRequest(userSettings.getStates));

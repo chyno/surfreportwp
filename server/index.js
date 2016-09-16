@@ -12,15 +12,7 @@ var webpack;
 var wpconfig;
 
 
-/*
-var allowCrossDomain = function (req, res, next) {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-  res.header('Access-Control-Allow-Headers', 'Content-Type');
-
-  next();
-};
-*/
+ 
  
 // view engine setup
 app.engine('html', swig.renderFile);
@@ -36,12 +28,11 @@ app.use(function (req, res, next) {
 });
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'dist')));
-//app.use(express.static(__dirname));
 app.set('port', process.env.PORT || 9000);
 app.use('/', api);
 
 
-console.log('****************************************************** Environment: '  + app.get('env'));
+console.log(' Environment: '  + app.get('env'));
 
 if ( app.get('env') === 'development')
 {
