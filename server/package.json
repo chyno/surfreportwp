@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Chynoweth",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "documentdb": "^1.9.0",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "requestify": "^0.2.3",
+    "swig": "^1.4.2"
+  }
+}
